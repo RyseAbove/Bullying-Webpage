@@ -59,8 +59,6 @@ article {
 
 .hero {
     height: 200px;
-    background-image: url(images/placeholder.png);
-    background-size: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
