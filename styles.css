@@ -4,6 +4,13 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    background-color: darkgray;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: darkgray;
+    margin-top: 20px;
 }
 
 p {
@@ -11,10 +18,12 @@ p {
     margin-right: 20px;
 }
 
-.hero {
+article.hero {
     background-image: url(/images/sad_child.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .hrTop {
@@ -31,13 +40,12 @@ p {
     margin-top: 40px;
 }
 
-.logo > img,
 .TopNav > a {
     padding: 10px;
-    border: solid 2.5px black;
-    border-radius: 1rem;
     text-decoration: none;
     font-size: 25px;
+    border: solid 2.5px black;
+    border-radius: 1rem;
 }
 
 .TopNav {
@@ -91,11 +99,6 @@ article {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.bottomContenttop > .logoBottom {
-    border: 2.5px solid black;
-    border-radius: 1rem;
 }
 
 .bottomContentbottom {
