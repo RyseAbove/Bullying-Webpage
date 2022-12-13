@@ -11,6 +11,12 @@ p {
     margin-right: 20px;
 }
 
+.hero {
+    background-image: url(/images/sad_child.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .hrTop {
     width: 100%;
     height: 20px;
