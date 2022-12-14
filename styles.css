@@ -20,8 +20,10 @@ footer {
 p {
     margin-left: 20px;
     margin-right: 20px;
+    padding: 10px;
     color: black;
     font-size: 20px;
+    background-color: lightgray;
 }
 
 body {
