@@ -20,6 +20,16 @@ footer {
 p {
     margin-left: 20px;
     margin-right: 20px;
+    color: black;
+    font-size: 20px;
+}
+
+body {
+    background-color:rgba(119, 136, 153, 0.716);
+}
+
+nav > a {
+    color: black;
 }
 
 article.hero {
@@ -114,6 +124,7 @@ article {
     border: 2.5px solid black;
     border-radius: 1rem;
     padding: 10px;
+    color: black;
 }
 
 .pTitle {
@@ -123,8 +134,10 @@ article {
 
 .row-section-1, .row-section-2 {
     width: 25%;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .row-section-1, .row-section-1-img {
@@ -148,4 +161,41 @@ article {
     margin-right: auto;
     width: 70%;
     align-items: center;
+}
+
+.row-section-1-content, .row-section-2-content {
+    width: 45%;
+}
+
+.one-half-01, .one-half-02 {
+    width: 30%;
+}
+
+.one-half-01 {
+    display: flex;
+    flex-direction: column;
+}
+
+.one-half-02 {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.one-half-01 > p {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+
+.one-half-02 > p {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+
+a.current {
+    background-color: lightgray;
+}
+
+a:hover {
+    background-color: rgba(173, 216, 230, 0.382);
 }
