@@ -120,3 +120,32 @@ article {
     display: flex;
     align-items: center;
 }
+
+.row-section-1, .row-section-2 {
+    width: 25%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.row-section-1, .row-section-1-img {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-section-2, .row-section-2-img {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-section-1-img, .row-section-2-img {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.row-section-1, .row-section-2 { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    align-items: center;
+}
